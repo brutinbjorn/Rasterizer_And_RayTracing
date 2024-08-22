@@ -5,7 +5,9 @@
 *.slo
 *.lo
 *.o
-*.obj
+
+# visual studio generated files.
+/vs
 
 # Precompiled Headers
 *.gch
@@ -24,9 +26,13 @@
 *.lai
 *.la
 *.a
-*.lib
+
 
 # Executables
 *.exe
 *.out
 *.app
+# Build Folder
+/bin
+/source/TempFiles
+/source/.vs/directx
